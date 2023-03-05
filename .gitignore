@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ders1 {
+    public static void main(String[] args) {
+
+        int n=2  ,total=0;
+        Scanner input=new Scanner(System.in);
+
+       while ((n%2==0)){
+           System.out.print("SAYI GİRİNİZ :");
+           n= input.nextInt();
+           if (n%4==0){
+               total=total+ n;
+
+
+            }
+       }System.out.println(total);
+        }
+
